@@ -358,7 +358,7 @@ function MessageContainer<TMessage extends IMessage = IMessage> (props: MessageC
         onLayout={onLayoutList}
         CellRendererComponent={renderCell}
       />
-      {isScrollToBottomEnabled
+{/*       {isScrollToBottomEnabled
         ? renderScrollToBottomWrapper()
         : null}
       <DayAnimated
@@ -367,7 +367,7 @@ function MessageContainer<TMessage extends IMessage = IMessage> (props: MessageC
         listHeight={listHeight}
         messages={messages}
         isLoadingEarlier={isLoadingEarlier}
-      />
+      /> */}
     </View>
   )
 }
