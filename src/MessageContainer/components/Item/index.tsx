@@ -100,10 +100,6 @@ const Item = <TMessage extends IMessage>(props: ItemProps<TMessage>) => {
     ...rest
   } = props
 
-  useEffect(()=>{
-    console.log('node_modules_this.props==>>',JSON.stringify(props))
-},[])
-
   const dayContainerHeight = useSharedValue(0)
   const dayTopOffset = useMemo(() => 10, [])
   const dayBottomMargin = useMemo(() => 10, [])
