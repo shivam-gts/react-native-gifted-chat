@@ -173,7 +173,7 @@ function MessageContainer<TMessage extends IMessage = IMessage> (props: MessageC
         daysPositions,
         listHeight,
       }
-
+      console.log('messageProps=---',JSON.stringify(messageProps))
       return (
         <Item<TMessage> {...messageProps} />
       )
