@@ -69,8 +69,8 @@ const DayWrapper = forwardRef<View, MessageProps<IMessage>>((props, ref) => {
     previousMessage,
   } = props
 
-  if (!currentMessage?.createdAt || isSameDay(currentMessage, previousMessage))
-    return null
+  // if (!currentMessage?.createdAt || isSameDay(currentMessage, previousMessage))
+  //   return null
 
   const {
     /* eslint-disable @typescript-eslint/no-unused-vars */
