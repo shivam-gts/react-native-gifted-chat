@@ -137,7 +137,7 @@ const Item = <TMessage extends IMessage>(props: ItemProps<TMessage>) => {
     // do not remove key. it helps to get correct position of the day container
     <View key={props.currentMessage._id.toString()}>
       <Animated.View
-        style={style}
+        // style={style}
         onLayout={handleLayoutDayContainer}
       >
         <DayWrapper {...rest as MessageProps<TMessage>} />
